@@ -1,11 +1,17 @@
-site_name: Wizeline MkDocs Template
+site_name: Alejandra Arriola
 nav:
-  - Home: index.md
-  - About: about.md
+  - General Information: index.md
+  - Profile: 
+    - Education and Experience: educationandexperience.md
+    - Selected Past Work: 'pastwork.md'
+
+
 
 theme:
   name: material
-  palette:
-    primary: black
-    accent: indigo
-  logo: images/wizeline_isotype.png
+  logo: images/wizeline.png
+  features:
+    - header.autohide
+
+extra_css:
+  - css/extra.css
